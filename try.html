@@ -1,0 +1,25 @@
+<html>
+
+<head>
+</head>
+
+<body onload="record()">
+    <h1>Recording message</h1>
+    <p id="msg"></p>
+    <script>
+        function record() {
+            window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
+            const recognition = new window.SpeechRecognition();
+            recognition.onresult = (event) => {
+                const speechToText = event.results[0][0].transcript;
+                document.getElementById("msg").innerHTML = speechToText;
+                console.log(speechToText);
+            }
+            recognition.start();
+        }
+
+    </script>
+
+</body>
+
+</html>
