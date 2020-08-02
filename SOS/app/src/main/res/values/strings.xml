@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SOS</string>
+    <string name="smart_voice_sos">Smart Voice SOS</string>
+
+    <string name="devleloped_by_cybertechelite">Devleloped by: CyberTechElite</string>
+    <string name="sos_image">sos image</string>
+    <string name="register_number_for_emergency">Register Number for Emergency</string>
+    <string name="number">number</string>
+    <string name="press_in_case_of_emergency">press in case of emergency</string>
+    <string name="message">message:</string>
+    <string name="text1">text1</string>
+</resources>
