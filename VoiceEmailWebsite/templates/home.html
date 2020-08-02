@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body style="">
+   
+   <div>
+    <h2 style="color: blue;">For recieving email</h2>
+       <form action="{% url 'recieve' %}" method="post">
+           {% csrf_token %}
+
+           <input type="email" placeholder="Enter your e-mail" name="email" > <br><br>
+        
+           <button type="submit" name="submit">recieve</button>
+
+       </form>
+    </div>
+
+       
+   
+   
+</body>
+</html>
