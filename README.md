@@ -6,4 +6,3 @@ ADVANCED DIAL100 SYSTEM
 2. In order to run these website or app, there are certain instructions.
 
 3. Platform must have reuirements needed by website or app
-
